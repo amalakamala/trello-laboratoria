@@ -1,0 +1,131 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background-color: #EAEAEA;
+	margin: 0px 0px 0px 0px;
+}
+
+h1{
+	padding: 0;
+	font-weight: 200;	
+	color: #FFF;
+	background-color: #FF6633;
+	padding: 10px;
+	margin-top: 0;
+	margin-left: 0;	
+	margin-right: 0;	
+
+}
+
+.agregar-lista, .boton-anadir{
+	color: #FFF;
+    width: 400px;
+    height: 1000px;
+    margin: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 10px;	
+	padding-bottom: 10px;		
+	text-decoration: none;
+	background-color: #25C1BA;	
+	border-radius: 0.4em 0.4em;	
+}
+
+.agregar-lista:hover, .agregar-lista:active {
+	background-color: #09958E;
+	color: #FFF;
+}
+
+.boton-anadir:hover, .boton-anadir:active {
+	background-color: #09958E;
+	color: #FFF;
+}
+
+
+.span-primero{
+	display: inline-block;
+	margin-top: 0;	
+	width: 300px;
+	background: #25C1BA;
+	text-align: center;
+	border-radius: 0.4em 0.4em;	
+	padding: 10px;	
+	margin: 10px 20px 10px 20px;
+}
+
+textarea{
+	display: block;
+	border-radius: 0.6em 0.6em;		
+	width: 250px;
+	height: 70px;
+	margin: 10px auto;
+	background-color: #E8E8E8;
+	border: 1px solid #9C9C9C;
+
+}
+
+
+.boton-guardar{
+	color: #FFF;
+    width: 100px;
+    margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;	
+	padding-bottom: 5px;		
+	text-decoration: none;
+	background-color: #09958E;	
+	border-radius: 0.2em 0.2em;		
+}
+
+.boton-guardar:hover, .boton-guardar:active{
+	background-color: #A5A6A6;
+	color: #FFF;
+	font-weight: 500;	
+}
+
+.fa-times{
+	padding: 8px;	
+	color: #FF6633;
+}
+
+.el-input{
+	padding: 8px;
+	text-transform: uppercase;		
+	color: #FFF;
+}
+
+
+.agregar-tarjeta{
+	color: #FFF;
+    width: 300px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 7px;	
+	padding-bottom: 7px;
+	margin: 10px;		
+}
+
+.agregar-tarjeta:hover, .agregar-tarjeta:active{
+	color: #115A56;	
+	text-decoration: underline;
+}
+
+
+li{
+	text-align: left;
+	list-style: none;
+	padding: 5px 10px 5px 10px;
+	color: #FFF;
+	margin-left: 30px;
+	margin-bottom: 10px;	
+	width: 220px;
+	border-radius: 0.4em 0.4em;	
+	background-color: #2AD0C7;		
+}
+
+.input-tarjeta:hover, .input-tarjeta:active{
+	color: #FFF;
+	background-color: #4AB5AF;			
+
+}
